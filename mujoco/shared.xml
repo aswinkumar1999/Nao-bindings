@@ -42,4 +42,33 @@
         <texture builtin="checker" height="100" name="texplane" rgb1="0 0 0" rgb2="0.8 0.8 0.8" type="2d" width="100"/>
         <material name="MatPlane" reflectance="0.5" shininess="1" specular="1" texrepeat="60 60" texture="texplane"/>
     </asset>
+
+    <actuator>
+        <position name="HeadYaw"  kp="10" joint="HeadYaw"/>
+        <position name="HeadPitch"  kp="10" joint="HeadPitch"/>
+        <position name="LHipYawPitch"  kp="10" joint="LHipYawPitch"/>
+        <position name="LHipRoll"  kp="10" joint="LHipRoll"/>
+        <position name="LHipPitch"  kp="10" joint="LHipPitch"/>
+        <position name="LKneePitch"  kp="10" joint="LKneePitch"/>
+        <position name="LAnklePitch"  kp="10" joint="LAnklePitch"/>
+        <position name="LAnkleRoll"  kp="10" joint="LAnkleRoll"/>
+        <position name="LShoulderPitch"  kp="10" joint="LShoulderPitch"/>
+        <position name="LShoulderRoll"  kp="10" joint="LShoulderRoll"/>
+        <position name="LElbowYaw"  kp="10" joint="LElbowYaw"/>
+        <position name="LElbowRoll"  kp="10" joint="LElbowRoll"/>
+        <position name="LWristYaw"  kp="10" joint="LWristYaw"/>
+        <position name="LHand"  kp="10" joint="LHand"/>
+        <position name="RHipYawPitch"  kp="10" joint="RHipYawPitch"/>
+        <position name="RHipRoll"  kp="10" joint="RHipRoll"/>
+        <position name="RHipPitch"  kp="10" joint="RHipPitch"/>
+        <position name="RKneePitch"  kp="10" joint="RKneePitch"/>
+        <position name="RAnklePitch"  kp="10" joint="RAnklePitch"/>
+        <position name="RAnkleRoll"  kp="10" joint="RAnkleRoll"/>
+        <position name="RShoulderPitch"  kp="10" joint="RShoulderPitch"/>
+        <position name="RShoulderRoll"  kp="10" joint="RShoulderRoll"/>
+        <position name="RElbowYaw"  kp="10" joint="RElbowYaw"/>
+        <position name="RElbowRoll"  kp="10" joint="RElbowRoll"/>
+        <position name="RWristYaw"  kp="10" joint="RWristYaw"/>
+        <position name="RHand"  kp="10" joint="RHand"/>
+    </actuator>
 </mujoco>
